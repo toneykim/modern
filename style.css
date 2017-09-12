@@ -1,0 +1,324 @@
+/*
+Toney Kim    Coding Dojo Yellow Belt Exam
+*/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: arial, sans-serif;
+	color: #c9c8c2;
+}
+
+
+#wrapper{
+	height: 1195px;
+	width: 994px;
+	background: #151515;
+	margin: 0 auto;
+}
+
+
+#inner{
+	height: 1195px;
+	width: 974px;
+	background: #1a1a1a;
+	margin: 0 auto;
+}
+
+
+#header{
+	height: 125px;
+	width: 974px;
+	position: relative;
+
+}
+
+#header img{
+	padding: 15px 0 0 15px;
+
+}
+
+#header p{
+	position: absolute;
+	color: #c9c8c2;
+	top: 35px;
+	left: 810px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+
+#nav{
+	height: 45px;
+	width: 974px;
+	background: linear-gradient(#535353,#252525);
+
+}
+
+#nav #menu{
+	margin: 0 0 0 20px;
+	
+}
+
+
+.innermenu{
+
+	display: inline-block;
+	font-weight: 600;
+	font-size: 14px;
+	margin: 0 0 0 13px;
+}
+
+.innerspacer{
+	display: inline-block;
+	height: 25px;
+	width: 2px;
+	background: linear-gradient(grey, #4e4e4e);
+	vertical-align: middle;
+	margin: 0 0 0 13px;
+
+}
+
+
+#menu a{
+	color: #a2a2a1 ;
+	text-decoration: none;
+	line-height: 40px;
+
+}
+
+#nav #menu #white{
+	color: #ced2d6;
+}
+
+#menu span{
+	font-size: 8px;
+	vertical-align: middle;
+	font-weight: 900;
+}
+
+
+#picture{
+	height: 360px;
+	width: 974px;
+
+}
+
+
+#picture img{
+	width: 974px;
+	border-bottom: 5px solid #3a3a3a;
+
+
+}
+
+#content{
+	height: 140px;
+	width: 974px;
+	padding: 0 0 0 30px;
+
+}
+
+.icon{
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 35px 13px 0 0 ;
+
+}
+
+.box{
+	height: 100px;
+	width: 160px;
+	display: inline-block;
+	margin: 35px 0 0 10px;
+	padding: 0 10px 0 0 ;
+	font-size: 12.5px;
+	line-height: 18px;
+
+}
+
+
+
+.orange{
+	font-family: "Times New Roman", Times, serif;
+	color: #d3762b;
+	font-size: 19px;
+	font-wieght: 900 ;
+	margin: 0 0 7px 0;
+}
+
+
+
+#buynow{
+	height: 145px;
+	width: 980px;
+	background: 
+  	/* On "top" */
+  	repeating-linear-gradient(
+    135deg,
+    transparent,
+    transparent 2px,
+    #050505 2px,
+    #050505 4px
+  	),
+  	/* on "bottom" */
+  	linear-gradient(
+    to bottom,
+    #121212,
+    #121212
+  	);
+
+}
+
+
+#buynow p{
+	height: 40px;
+	width: 600px;
+}
+
+#buynowleft {
+	height: 100px;
+	width: 650px;
+	display: inline-block;
+	padding: 30px 0 0 20px;
+}
+
+#buynowleft p{
+	font-size: 24px;
+	font-weight: 100;
+
+}
+
+#buynowleft span{
+	font-size: 13px;
+	font-weight: 200;
+	color: #a6a3ab;
+}
+
+
+#buynowright{
+	height:50px;
+	width: 10px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+
+#buynowright h3{
+	padding: 10px 5px 10px 5px;
+	background: linear-gradient(#f29a58,#ef8130);
+	width: 120px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 16px;
+	margin: 50px 0 0 130px;
+	border-top: 1px solid #f6b98c;
+
+}
+
+#buynowright a{
+	text-decoration: none;
+	color: white;
+}
+
+
+#porfolio{
+	height: 290px;
+	width: 974px;
+
+}
+
+
+
+#portfoliotop{
+	display: inline-block;
+	margin: 25px 0 0 20px;
+}
+
+#portfoliotop p{
+	display: inline;
+
+
+}
+
+#portfoliotop p:nth-of-type(1){
+	font-family: "Times New Roman", Times, serif;
+	font-size:22px;
+	font-weight: 500;
+
+}
+
+#portfoliotop p:nth-of-type(2){
+	margin: 0 0 0 733px;
+	font-style: italic;
+	font-size:13px;
+	font-weight: 500;
+	color: #ef802d;
+
+}
+
+#portfoliotop a{
+	text-decoration: none;
+	color: #ef802d;
+
+}
+
+#portfoliobottom{
+	display: inline-block
+}
+
+
+
+
+#portfolio .boxlarge{
+	height: 290px;
+	width: 220px;
+	display: inline-block;
+	margin: 20px 0 0 16px;
+	vertical-align: top;
+}
+
+
+#portfoliobottom img{
+	width: 210px;
+	border: 5px solid #363636;
+
+}
+
+
+#portfoliobottom p{
+	font-size: 12px;
+	line-height: 17px;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+
+#portfoliobottom .orange2{
+	color: #dd752a;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: "Times New Roman", Times, serif;
+	margin: 8px 0 8px 0;
+}
+
+
+#portfolio h6{
+	text-align: right;
+
+}
+
+#portfolio h6 a{
+	color: #414c59;
+	text-decoration: none;
+
+}
+
